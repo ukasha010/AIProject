@@ -1,0 +1,56 @@
+/* styles.css */
+.dashboard {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .dash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .sidebar {
+    width: 200px;
+
+    background-color: #ffffff;
+    color: white;
+    border-right: 2px solid rgb(189, 185, 185);
+  }
+  
+
+
+  
+  .main-content {
+    flex: 1;
+    background-color: #f0f0f0;
+   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-bottom: 3px solid rgb(207, 201, 201);
+    font-size: large;
+  }
+  .navbar button {
+    border: none;
+    background-color: #ffffff;
+    color:rgb(115, 115, 115); ;
+  }
+  .navbar .create-process-btn{
+    border-radius: 15px;
+    padding: 2px 8px;
+
+    background-color: #3690c1;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  

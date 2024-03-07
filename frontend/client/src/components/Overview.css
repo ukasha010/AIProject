@@ -1,0 +1,79 @@
+.bmc-container{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  
+
+}
+
+
+textarea {
+  resize: none !important;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+} 
+
+.bmc1-container{
+  display: flex;
+  flex-direction: row;
+}
+.bmc2-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+.bmc3-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.bmc-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+  
+  .section {
+    padding: 10px;
+    border: 1px solid #8e8e8e;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+
+  .key-partners,.Customer-Segments {
+    height: 500px;
+    width: 225px;
+  }
+  .Value-Propositions{
+    height: 500px;
+    width: 350px;
+  }
+
+  
+  .key-activities,.key-Resources {
+    height: 250px;
+    width: 225px;
+  }
+
+ 
+  .customer, .Channels{
+    height: 250px;
+    width: 200px;
+  }
+  .Revenue-Streams,.Cost-Structure{
+    width: 612px;
+  }
+
+  .canvas-done-btn{
+    border-radius: 15px;
+    padding: 5px 18px;
+    margin-top: 5px;
+    background-color: rgb(71, 117, 198);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  
